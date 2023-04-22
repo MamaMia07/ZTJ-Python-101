@@ -17,7 +17,7 @@ def print_nice_table(data_set, board_size):
     print(tabulate(table, tablefmt='grid')) 
 
 
-def is_the_winner(data_set,board_size, mark):
+def is_the_winner(data_set, board_size, mark):
     ''' check if 3 x mark (e.g.'X' or 'O') in rows, columns,
         main diagonal and secondary diagonal of game board '''
     m = len(data_set)
@@ -32,32 +32,29 @@ def is_the_winner(data_set,board_size, mark):
         or all(field == mark for field in data_set[2:m-1:2]):
         return True
     else:
-        return False
-        
-    
-# game start
+        return False      
+   
+# game starts
 while True:
-    n=3 # game board size
+    n=3 # set the game board size
 
-    # generating field indexes
+    # generating the list of field indexes 
     fields = []
     for i in range(n):
         for j in range(n):
             fields.append(str(i+1) + str(j+1))
     remains = fields[:]
 
-
     # printing the game board
     while True:
         print_nice_table(fields, n)
             
-    # checking:  is the winner?     
+    # checking: is the winner?     
         if is_the_winner(fields, n, 'X'):
             print('Congratulations!\nYou won!')
             break
-
-        elif is_the_winner(fields,n, 'O'):
-            print('Player 2 won')
+        elif is_the_winner(fields, n, 'O'):
+            print('Player_2 won')
             break
 
     # player selection
@@ -71,13 +68,12 @@ while True:
         # random player2 selection
         if len(remains)!= 0:  
             player2 = random.choice(remains)
-            print('Player2 selected: '+ player2+'\n')
+            print('Player_2 selected: '+ player2+'\n')
             remains.remove(player2)
             fields = ['O' if field == player2 else field for field in fields]
         else:
             print('Draw!\nGame over')
             break
-
          
     answer = input('Do you want to play again? (y/n) ')
     print('')
