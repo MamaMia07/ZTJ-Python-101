@@ -65,7 +65,7 @@ while True:
         remains.remove(player1)
         fields = ['X' if field == player1 else field for field in fields]
 
-        # random player2 selection
+    # random player2 selection
         if len(remains)!= 0:  
             player2 = random.choice(remains)
             print('Player_2 selected: '+ player2+'\n')
