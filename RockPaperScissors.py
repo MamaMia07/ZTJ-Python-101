@@ -10,10 +10,11 @@ options={1:'paper' , 2:'rock', 3:'scissors'}
 while True:
     [score_player1, score_player2]  = [0, 0]
     rounds = int(input('How many rounds? : '))
-    for _ in range(rounds):
+    for rnd in range(rounds):
         player1 = ''
         while player1 not in ['1', '2', '3']:
-            print('''\nOptions:
+            print(f'''\nRound {rnd+1}
+    Options:
     1 - paper    2- rock    3 - scissors
             ''')
             player1 = input('Choose number 1, 2 or 3: ')
