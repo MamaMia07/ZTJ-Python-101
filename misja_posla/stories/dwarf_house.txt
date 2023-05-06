@@ -1,0 +1,15 @@
+
+Pakujesz nowy nabytek i wyruszasz w drogę. 
+Pomimo tego, że trakt wygląda na mocno uczęszczany, nie spotykasz nikogo na drodze.
+Około południa dotarłeś do niewielkiej chatki,tuż pod lasem. Napis na drzwiach głosił,
+ze mieszka w niej Krasnolud, mistrz broni. Był on zarazem Patronem Run.
+Kiedy wszedłeś do chatki, Krasnolud niechętnie oderwał się od swojej pracy. 
+Zapytany o broń na sprzedaż, wskazał stół pod ścianą. 
+Na stole tym leżały:
+  - miecz, na którym wyryte były magiczne runy, dzięki którym broń nadawała się do walki z demonami,
+  - kusza z kołczanem strzał wzmocnionych runami, dzięki którym skutecznie raziły demony,,
+  - runiczny krąg, tworzący magiczną barierę przed demonami, jednak aby była ona skuteczna,
+    żaden run nie może być uszkodzony.
+
+Krasnolud może sprzedać Ci jedną z tych rzeczy. Każda kosztuje 1 złotą monetę. 
+Co weźmiesz w dalszą podróż?
